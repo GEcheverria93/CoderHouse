@@ -1,0 +1,48 @@
+.container {
+    padding: 120px 40px 0px;
+}
+.about-me-img img {
+    width: 500px;
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatar img {
+    width: 100px;
+    border-radius: 50%;
+    border: blueviolet 1px solid;
+}
+.projects {
+    padding-top: 80px;
+}
+.projects-img img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+.projects-img {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+.social-icons {
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons img {
+    width: 50px;
+}
+h2 {
+    text-align: center;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+}
