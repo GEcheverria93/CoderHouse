@@ -1,5 +1,26 @@
+body {
+    background-color: #030712;
+    color: #ffffff;
+}
+.navbarContainer {
+    background-color: #030712;
+    border-color: #030712 !important;
+    .navbarText {
+        color: #ffffff !important;
+    }
+}
 .container {
     padding: 120px 40px 0px;
+}
+.containerTitle {
+    margin-bottom: 70px;
+    font-family: monospace;
+    h2 {
+        font-size: 40px;
+        span {
+            color: #0ad87a;
+        }
+    }
 }
 .about-me-img img {
     width: 500px;
@@ -45,4 +66,15 @@ h2 {
 .navbar {
     position: fixed;
     width: 100%;
+}
+.formcontact {
+    padding: 100px 200px;
+    .formButtom {
+        background-color: #0ad87a;
+        border-color: #0ad87a;
+        color: #030712;
+    }
+    .textHelp {
+        color: #ffffff;
+    }
 }
