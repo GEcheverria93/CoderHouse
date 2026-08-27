@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #030712;
+    color: #ffffff;
+    text-align: center;
+}
+
+html:not(.dark) body {
+    background-color: #ffffff;
+    color: #1f2937;
+}
+
+.container {
+    padding: 120px 40px 0px;
+    text-align: center;
+}
+
+.containerTitle {
+    margin-bottom: 70px;
+    font-family: monospace;
+}
+
+.containerTitle h2 {
+    font-size: 40px;
+}
+
+.containerTitle h2 span {
+    color: #0ad87a;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me p {
+    max-width: 900px;
+}
+
+.projects {
+    padding-top: 80px;
+}
+
+.projects > p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects .p-6 {
+    text-align: center;
+}
+
+.projects .flex-wrap,
+.projects .flex.gap-3 {
+    justify-content: center;
+}
+
+.formcontact {
+    padding: 100px 200px;
+    text-align: center;
+}
