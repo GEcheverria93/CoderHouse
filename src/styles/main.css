@@ -18,6 +18,18 @@ html:not(.dark) body {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .container {
+        padding: 100px 20px 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 90px 16px 0px;
+    }
+}
+
 .containerTitle {
     margin-bottom: 70px;
     font-family: monospace;
@@ -25,6 +37,12 @@ html:not(.dark) body {
 
 .containerTitle h2 {
     font-size: 40px;
+}
+
+@media (max-width: 480px) {
+    .containerTitle h2 {
+        font-size: 30px;
+    }
 }
 
 .containerTitle h2 span {
@@ -35,10 +53,13 @@ html:not(.dark) body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .about-me p {
     max-width: 900px;
+    width: 100%;
 }
 
 .projects {
@@ -62,4 +83,30 @@ html:not(.dark) body {
 .formcontact {
     padding: 100px 200px;
     text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-title {
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .formcontact {
+        padding: 80px 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .formcontact {
+        padding: 60px 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .formcontact {
+        padding: 50px 16px;
+    }
 }

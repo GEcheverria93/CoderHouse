@@ -21,7 +21,9 @@ Portfolio personal de Gabriel Echeverría, desarrollado para presentar informaci
 - Diseño responsive para desktop y dispositivos móviles.
 - Menú de navegación responsive.
 - Alternancia entre modo claro y oscuro.
+- Alternancia de idioma español/inglés (ESP/ENG).
 - Preferencia de tema guardada en `localStorage`.
+- Preferencia de idioma guardada en `localStorage`.
 - Detección del tema del sistema operativo cuando no existe una preferencia manual.
 
 ## Requisitos
