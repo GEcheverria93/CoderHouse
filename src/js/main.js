@@ -11,6 +11,8 @@ const translations = {
         projectsText: 'Estos son mis proyectos hasta el momento, donde aplico todo lo que fui aprendiendo en el camino.',
         projectTitle: 'Tienda Electrónica',
         projectText: 'Una tienda online completa con catálogo de productos, carrito de compras y funcionalidades de e-commerce básicas. Desarrollada con tecnologías web modernas.',
+        backendProjectTitle: 'E-commerce Backend con MongoDB',
+        backendProjectText: 'API para e-commerce con autenticación, gestión de productos, carritos y sesiones. Incluye vistas del lado del servidor, documentación y configuración para Docker.',
         demoButton: 'Ver demo',
         codeButton: 'Ver código',
         contactTitle: 'Contacto',
@@ -46,6 +48,8 @@ const translations = {
         projectsText: "These are my projects so far, where I apply everything I've been learning along the way.",
         projectTitle: 'Electronics Store',
         projectText: 'A complete online store with a product catalog, shopping cart and basic e-commerce features. Built with modern web technologies.',
+        backendProjectTitle: 'E-commerce Backend with MongoDB',
+        backendProjectText: 'An e-commerce API with authentication, product, cart and session management. It includes server-side views, documentation and Docker configuration.',
         demoButton: 'View demo',
         codeButton: 'View code',
         contactTitle: 'Contact',
@@ -165,9 +169,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const isDark = document.documentElement.classList.contains('dark');
         updateThemeIcons(isDark);
 
-        const nextLang = currentLang === 'en' ? 'es' : 'en';
-        if (langToggle) langToggle.setAttribute('aria-label', translations[nextLang].langToggleAria);
-        if (langToggleMobile) langToggleMobile.setAttribute('aria-label', translations[nextLang].langToggleAria);
+        if (langToggle) langToggle.setAttribute('aria-label', translations[currentLang].langToggleAria);
+        if (langToggleMobile) langToggleMobile.setAttribute('aria-label', translations[currentLang].langToggleAria);
     }
 
     // Language toggle buttons
